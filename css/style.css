@@ -1,6 +1,8 @@
 @import url('./reset.css');
 
 
+
+
 /* lato-regular - latin */
 @font-face {
     font-family: 'Lato';
@@ -475,15 +477,6 @@ text-align: left;
     margin-bottom: 30px; 
 }
 /* КАРУСЕЛ */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1182,13 +1175,6 @@ color: rgba(150, 150, 150, 1);
         transform: rotate(360deg);
     }
 }
-
-
-
-
-
-
-
 
 
 
