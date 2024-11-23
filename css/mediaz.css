@@ -194,7 +194,7 @@
         height: auto;
 
         text-align: center;
-        /* Центровка текста для маленьких экранов */
+       
     }
 
     .title__large {
@@ -357,17 +357,17 @@
     .tssential__conten,
     .hosts__conten {
         margin-left: 10px;
-        /* Уменьшаем отступ */
+       
         width: 100%;
         flex-direction: column;
-        /* Располагаем элементы вертикально */
+      
         height: auto;
     }
 
     .essential__title,
     .hosts__title {
         font-size: 28px;
-        /* Уменьшаем шрифт */
+      
         width: 100%;
         text-align: center;
     }
@@ -382,15 +382,15 @@
     .essential-episodes,
     .episodes-grid {
         width: 100%;
-        /* Делаем ширину адаптивной */
+       
         margin-left: 0;
     }
 
     .episodes-grid {
         grid-template-columns: 1fr;
-        /* Один элемент в строке */
+        
         gap: 10px;
-        /* Уменьшаем промежутки */
+     
     }
 
     .episode-card {
@@ -405,7 +405,7 @@
 
     .work__echnology {
         font-size: 20px;
-        /* Уменьшаем шрифт */
+       
 
         margin: 10px auto;
     }
@@ -417,175 +417,197 @@
         padding-bottom: 20px;
     }
 
-    @media (max-width: 390px) {
+  
 
-        /* Team Container */
+       
         .team-container {
             width: 100%;
-            /* Растягиваем на всю ширину экрана */
+            
             height: auto;
-            /* Высота автоматически */
+           
             padding: 0 20px;
-            /* Сужаем внутренние отступы */
+            
             flex-wrap: wrap;
-            /* Переносим элементы на новую строку */
+           
             gap: 20px;
-            /* Добавляем расстояние между карточками */
+           
             margin-left: 0;
-            /* Убираем фиксированный отступ */
+           
             justify-content: center;
-            /* Центрируем контент */
+        
         }
 
         .card {
             width: 100%;
-            /* Растягиваем карточки на ширину экрана */
+           
             height: auto;
-            /* Высота подстраивается под контент */
+         
         }
 
         .profile-pic {
             width: 100%;
-            /* Ширина изображения равна ширине карточки */
+           
             height: auto;
-            /* Сохраняем пропорции изображения */
+            
         }
 
         .card-content {
             padding: 15px;
-            /* Уменьшаем внутренние отступы */
+           
         }
 
         .nameBella,
         .nameEdwin,
         .name__Caitlin {
             font-size: 20px;
-            /* Уменьшаем размер шрифта */
+          
             line-height: 28px;
             text-align: center;
-            /* Выравниваем по центру */
+          
         }
 
         .title {
             font-size: 12px;
-            /* Уменьшаем шрифт */
+          
             text-align: center;
-            /* Центрируем текст */
+           
         }
 
         .social-icons {
             justify-content: center;
-            /* Центрируем иконки */
+            
             margin-top: 15px;
         }
 
         .social-icons img {
             width: 20px;
-            /* Уменьшаем размер иконок */
+            
             height: 20px;
         }
 
-        @media (max-width: 390px) {
+        
             .footer {
-                width: 100%;
-                /* На всю ширину экрана */
+                width: auto;
+               
                 height: auto;
-                /* Автоматическая высота */
+               
                 padding: 20px 10px;
-                /* Отступы для контента */
+              
             }
 
             .footer-area {
                 flex-wrap: wrap;
-                /* Переносим элементы на новые строки */
+                
                 padding-left: 10px;
-                /* Уменьшаем отступы */
+               
                 column-gap: 20px;
-                /* Уменьшаем расстояние между колонками */
+               
                 height: auto;
-                /* Автоматическая высота */
+                
                 align-items: center;
-                /* Центрируем контент */
+             
             }
 
             .futer__logo-pic {
                 margin-top: 20px;
-                /* Уменьшаем отступ сверху */
+               
                 margin-bottom: 20px;
-                /* Добавляем отступ снизу */
+                
             }
 
             .footer__top-area-top {
                 margin-top: 20px;
-                /* Уменьшаем отступ сверху */
+                
                 margin-bottom: 20px;
-                /* Уменьшаем отступ снизу */
+                
                 font-size: 20px;
-                /* Уменьшаем размер шрифта */
+                
                 text-align: center;
-                /* Центрируем текст */
+                
             }
 
             .footer-top-containers {
                 max-width: 100%;
-                /* Растягиваем на всю ширину */
+             
                 margin-bottom: 20px;
-                /* Добавляем отступ снизу */
+               
             }
 
             .footer__info-area {
                 flex-wrap: wrap;
-                /* Переносим содержимое */
+               
                 column-gap: 10px;
-                /* Уменьшаем расстояние */
+                
                 row-gap: 20px;
-                /* Добавляем отступ между строками */
+                
                 padding-bottom: 20px;
-                /* Уменьшаем отступ */
+               
             }
 
             .footer__info-title {
                 font-size: 16px;
-                /* Уменьшаем размер шрифта */
+               
                 margin-bottom: 10px;
-                /* Уменьшаем отступ снизу */
+               
                 text-align: center;
-                /* Центрируем текст */
+             
             }
 
             .footer__info-desc,
             .footer__info-adress,
             .footer__info-a {
                 font-size: 12px;
-                /* Уменьшаем шрифт */
+               
                 line-height: 18px;
-                /* Уменьшаем межстрочный интервал */
+                
                 text-align: center;
-                /* Центрируем текст */
+             
             }
 
             .social-media {
                 justify-content: center;
-                /* Центрируем иконки */
+                
                 margin-top: 20px;
-                /* Добавляем отступ сверху */
+              
                 column-gap: 10px;
-                /* Уменьшаем расстояние между иконками */
+              
             }
 
             .footer__bottom-area {
                 padding: 10px 10px;
-                /* Уменьшаем отступы */
+               
                 text-align: center;
-                /* Центрируем содержимое */
+               
             }
 
             .footer__bottom-a,
             .footerbottom-aretext {
                 font-size: 12px;
-                /* Уменьшаем размер текста */
+               
                 text-align: center;
-                /* Центрируем текст */
+                
             }
-        }
+
+
+            .header__nav {
+                display: none;
+                position: absolute;
+                top: 60px; 
+                right: 10px; 
+                background: none;
+               
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+                padding: 10px;
+                z-index: 1000;
+                transition: opacity 0.3s ease, transform 0.3s ease;
+            }
+
+            
+            .header__nav.show {
+                display: block;
+                opacity: 1;
+                transform: translateY(0);
+            }
+            
     }
